@@ -3,9 +3,11 @@ on:
   push:
     branches:
       - master
+      - ajv-resolver
   pull_request:
     branches:
       - master
+      - ajv-resolver
     paths-ignore:
       - ".gitignore"
       - ".npmignore"
